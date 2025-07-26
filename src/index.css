@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1477201800314-6b0b2ee1816d');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
