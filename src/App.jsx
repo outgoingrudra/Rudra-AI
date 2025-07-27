@@ -5,7 +5,7 @@ import Answer from './Components/Answer'
 
 export default function App() {
   const [question, setQuestion] = useState("")
-  const [chatHistory, setChatHistory] = useState([{ type: 'ai', content: "  Hey ! I am Rudra AI 😊" }])
+  const [chatHistory, setChatHistory] = useState([{ type: 'ai', content: "  Hey ! I am Rudra's AI 😊" }])
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [darkMode, setDarkMode] = useState(true)
   const scrollRef = useRef(null)
